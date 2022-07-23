@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[1]: Import libraries
 
 
 import numpy as np
@@ -9,20 +9,20 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-# In[2]:
+# In[2]:  Upload dataset
 
 
 dataset = pd.read_csv('/Users/aynaz/Desktop/FinalAstma.csv')
 
 
-# In[27]:
+# In[27]: Independent and dependent variables
 
 
 X = dataset.iloc[:, 1:11].values
 y = dataset.iloc[:, -3].values
 
 
-# In[28]:
+# In[28]: reshape indepednt variables 
 
 
 y = y.reshape(len(y),1)
@@ -34,7 +34,7 @@ y = y.reshape(len(y),1)
 y
 
 
-# In[30]:
+# In[30]: split data to test and train
 
 
 from sklearn.model_selection import train_test_split
@@ -65,7 +65,7 @@ regressor = SVR(kernel = 'rbf')
 regressor.fit(X_train, y_train)
 
 
-# In[39]:
+# In[39]: prediction on test data 
 
 
 y_pred = sc_y.inverse_transform(regressor.predict(sc_X.transform(X_test)))
