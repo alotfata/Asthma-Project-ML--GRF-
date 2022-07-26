@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210317</CreaDate><CreaTime>21362400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>ISO 19139 Metadata Implementation Specification</ArcGISstyle><SyncOnce>FALSE</SyncOnce><DataProperties><itemProps><itemName Sync="TRUE">MedicalCenter_CMAP</itemName><itemLocation><linkage Sync="FALSE">withheld</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><nativeExtBox><westBL Sync="TRUE">883291.371689</westBL><eastBL Sync="TRUE">1205877.582158</eastBL><southBL Sync="TRUE">1651671.772145</southBL><northBL Sync="TRUE">2123357.709676</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><imsContentType>002</imsContentType><itemSize Sync="TRUE">0.000</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Illinois_East_FIPS_1201_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.6'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Illinois_East_FIPS_1201_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,984250.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-88.33333333333333],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.999975],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,36.66666666666666],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,3435]]&lt;/WKT&gt;&lt;XOrigin&gt;-17463800&lt;/XOrigin&gt;&lt;YOrigin&gt;-46132600&lt;/YOrigin&gt;&lt;XYScale&gt;137244822.07846552&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333331&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102671&lt;/WKID&gt;&lt;LatestWKID&gt;3435&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits></coordRef><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20201114" Time="102435">FeatureClassToFeatureClass S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1 S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\shapefile Landuse2015_CMAP_v1.shp # "FIRST_COUN "FIRST_COUNTY" true true false 3 Text 0 0 ,First,#,S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1,FIRST_COUNTY,-1,-1;LANDUSE "LANDUSE" true true false 4 Text 0 0 ,First,#,S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1,LANDUSE,-1,-1;LANDUSE2 "LANDUSE2" true true false 20 Text 0 0 ,First,#,S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1,LANDUSE2,-1,-1;OS_MGMT "OS_MGMT" true true false 4 Text 0 0 ,First,#,S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1,OS_MGMT,-1,-1;FAC_NAME "FAC_NAME" true true false 150 Text 0 0 ,First,#,S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1,FAC_NAME,-1,-1;PLATTED "PLATTED" true true false 1 Text 0 0 ,First,#,S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1,PLATTED,-1,-1;MODIFIER "MODIFIER" true true false 1 Text 0 0 ,First,#,S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1,MODIFIER,-1,-1;Shape_Leng "Shape_Leng" false true true 8 Double 0 0 ,First,#,S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,S:\Projects\LandUseInventory\LUI_2015\workspace\ReleaseVersion\LandUse2015_CMAP_v1.gdb\Landuse2015_CMAP_v1,Shape_Area,-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\FeatureToPoint" Date="20210317" Time="214239">FeatureToPoint medicalcenter C:\Users\Geosciences\Desktop\TestingCenters\MedicalCenter_CMAP.shp CENTROID</Process></lineage></DataProperties><SyncDate>20210317</SyncDate><SyncTime>21411500</SyncTime><ModDate>20210317</ModDate><ModTime>21411500</ModTime><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISProfile>ISO19139</ArcGISProfile></Esri><eainfo><detailed Name="MedicalCenter_CMAP" xmlns=""><enttyp><enttypl Sync="TRUE">MedicalCenter_CMAP</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">FIRST_COUN</attrlabl><attalias Sync="TRUE">FIRST_COUN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LANDUSE</attrlabl><attalias Sync="TRUE">LANDUSE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LANDUSE2</attrlabl><attalias Sync="TRUE">LANDUSE2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">OS_MGMT</attrlabl><attalias Sync="TRUE">OS_MGMT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FAC_NAME</attrlabl><attalias Sync="TRUE">FAC_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">150</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLATTED</attrlabl><attalias Sync="TRUE">PLATTED</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MODIFIER</attrlabl><attalias Sync="TRUE">MODIFIER</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">ORIG_FID</attrlabl><attalias Sync="TRUE">ORIG_FID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed><overview xmlns=""><eaover>DESCRIPTION OF 2015 LAND USE CATEGORIES
+
+RESIDENTIAL LAND USES:
+1111 Single-Family Detached  [RES_SF_DETACHED]
+One housing unit per free-standing residential structure.  Can include un-developed Residential properties when adjacent to a developed property with the same owner.
+
+1112 Single-Family Attached  [RES_SF_ATTACHED]
+Townhomes, duplexes, and other multi-unit structures whose units do not share a common entryway.
+
+1130 Multi-family  [RES_MF]
+Multiple-unit residential buildings with a common entryway.  Includes retirement complexes (except nursing homes), as well as two-flats, three-flats, condominiums and cooperatives.  Includes single-resident occupancy (SRO) buildings.  Not included are mixed-use areas with street-level commercial with between 1 and 3 floors of residential above; those are coded 1216 Urban Mix w/Residential Component.  High-rise apartment buildings with street level commercial, however, are coded as multi-family.
+
+1140 Mobile Home Parks and Trailer Courts  [RES_MOBILE]
+Collections of small, manufactured, uniform housing; includes common areas, office, and associated open space.
+
+1151 Common Open Space in a Residential Development  [RES_COMMON]
+Common areas within a residential development; may be managed by homeowners’ association (HOA), or owned by the local municipality.
+
+COMMERCIAL LAND USES:
+1211 Shopping Malls  [COM_MALL]
+This category is reserved for what are referred to as “super-regional centers,” which have a minimum Gross Leasable Area (GLA) in excess of 750,000 square feet (as reported by CoStar).
+ 
+1212 Regional &amp; Community Retail Centers  [COM_REGIONAL]
+Retail centers between 100,000 and 750,000 sq. feet GLA (as reported by CoStar).
+ 
+1214 Single Large-Site Retail  [COM_BIGBOX]
+Parcel contains single retail operation in excess of 100,000 sq. feet GLA.
+ 
+1215 Urban Mix  [COM_URBMIX]
+This category includes smaller retail trade and services not elsewhere identified in Series 1210 as well as smaller office/professional activities not identified in Series 1220.  Examples include but are not limited to: grocery stores; department stores; eating and drinking establishments; gasoline service stations; motor vehicle sales; garden supplies; finance, insurance, and real estate services; personal services; business services, repair services, professional services; construction services.  Buildings that are adjacent to larger retail centers but are distinct from them fall in this group.
+ 
+1216 Urban Mix w/Residential Component  [COM_URBMIXwRES]
+Similar to 1215 Urban Mix, but in areas where there is a likelihood of one or more residential units included in the parcel on the upper floors of the building.  In newer “mixed-use” developments, this category is applied if the residential and commercial components share a single parcel.  In older urban areas characterized by a block of storefronts, all parcels in the block receive this code provided the majority of buildings are 2-4 stories high and that there is evidence (such as Census housing unit counts) that some of the buildings contain dwelling units in the upper floors.  Buildings taller than 4 stories that are predominantly multi-family should be coded 1130 Multi-Family.
+
+1220 Office  [COM_OFFICE]
+Office buildings, including stand-alone office buildings as well as office complexes and corporate campuses.
+
+1240 Cultural/Entertainment  [COM_CULT_ENT]
+Cultural activities: museums, planetaria, aquaria, zoos, historic sites. Public Assembly: amphitheaters, drive-ins, stadiums, arenas, race tracks, exhibition halls, conference centers. Amusements: fairgrounds, amusement parks, miniature golf, go-cart tracks. Recreational activities: tennis courts, ice rinks, bowling, swimming pools (all when not associated with a larger facility such as a hotel or park); recreation centers (stand-alone, not next to a field facility); land-based portion of yacht clubs, marinas, and riverboat casinos.  Not included in this category are botanical gardens, arboretums, camping and picnicking, golf courses, riding stables, ski resorts, toboggan runs, playgrounds, or organized camps/retreats (see Open Space).
+
+1250 Hotel/Motel  [COM_HOTEL]
+Includes associated parking and recreational facilities.
+
+INSTITUTIONAL LAND USES:
+1310 Medical Facilities  [INST_MEDICAL]
+Includes hospitals as well as nursing homes and other long-term care facilities.
+
+1321 K-12 Educational Facilities  [INST_EDU_K12]
+Public and non-public schools as identified by the Illinois State Board of Education.  Church/school combinations that share a common parcel are coded as schools (with “R” in MODIFIER field).
+ 
+1322 Post-Secondary Educational Facilities  [INST_EDU_HIGHER]
+Universities, colleges, community colleges; public, as well as for-profit and not-for-profit private schools.  As identified by the Illinois Board of Higher Education.  Includes satellite campuses, where applicable.
+
+1330 Government Administration and Services  [INST_GOVT]
+Includes executive, legislative, and judicial functions; protective functions (police, fire, civil defense); postal services and public libraries; public works facilities that are not included in the 1500 (Transportation, Communication, Utilities &amp; Waste) series.  Also, military facilities (including military group housing quarters, military residences, training bases, arsenals, armories) such as the Great Lakes Naval Center and Illinois National Guard Centers.
+ 
+1340 Prison and Correctional Facilities  [INST_PRISON]
+Government establishments primarily engaged in managing and operating correctional institutions. The facility is generally designed for the confinement, correction, and rehabilitation of adult and/or juvenile offenders sentenced by a court.
+
+1350 Religious Facilities  [INST_RELIGIOUS]
+Houses of worship, along with associated structures and property.
+ 
+1360 Cemeteries  [INST_CEMETERY]
+Includes associated chapels and mausoleums.
+ 
+1370 Other Institutional  [INST_OTHER]
+Includes: YMCA, YWCA,  and Salvation Army service centers; Moose, Elks, VFW, and similar service organizations; other tax-exempt social service organizations that provide specific social services for people.
+
+1380 National Laboratory  [INST_NATLAB]
+Special category for Argonne National Laboratory and Fermilab.
+
+INDUSTRIAL LAND USES:
+1410 Mineral Extraction  [IND_MINERAL]
+Includes coal mining; crude petroleum and natural gas mining; stone, sand, and clay quarrying.  Includes active sites, as well as inactive sites where there has been no visible attempt at reclamation or re-use.
+
+1420 General Industrial &lt; 100,000 sq. ft.  [IND_GENERAL]
+Includes smaller-scale manufacturing and warehousing operations.  Primary identification criteria is the categorization of built property as “Industrial” by county assessor; and is not involved in mineral extraction (1410), larger-scale Industrial uses (series 1430), or storage (1450).  
+
+1431 Manufacturing/Processing  &gt;= 100,000 sq. ft. [IND_MANUF_100K]
+Properties where the manufacturing of goods is the sole on-site activity.
+
+1432 Warehousing/Distribution &gt;= 100,000 sq. ft. [IND_WAREH_100K]
+Primary activity on the parcel is the storage and distribution of goods.  Does not include commercial storage (see 1450).
+
+1433 Flex or Indeterminate &gt;= 100,000 sq. ft. [IND_FLEX_100K]
+Industrial properties where there is no clear use, or is a mix of office space with manufacturing and/or warehousing on the parcel, or where the specific function cannot be discerned.
+
+1450 Storage  [IND_STORAGE]
+Long-term storage facilities including: commercial (public) storage, yacht storage, and auto junkyards.
+
+TRANSPORTATION, COMMUNICATION, UTILITIES &amp; WASTE LAND USES:
+1511 Rail ROW  [TCU_ROW_RAIL]
+Linear parcels owned by a rail transportation company, unless converted to non-rail use (i.e. 3500 Trail or Greenway).
+ 
+1512 Roadway  [TCU_ROW_ROAD]
+Linear parcel dominated by roadway.
+
+1520 Other Linear Transportation with Associated Facilities  [TCU_OTH_LINEAR] 
+Transportation-related activities separate from right-of-way parcels, including commuter rail stations and parking, as well as maintenance yards and freight terminals. This category also includes bus transportation, public and private including passenger terminals and bus ports, garaging, and maintenance facilities; motor freight and miscellaneous transportation including trucking terminals, trucking equipment and maintenance facilities, taxicab transportation.  Category also includes marine craft transportation including commercial docks (e.g. wharves, piers, and docks) and terminals where clearly independent from other uses.  Facilities servicing recreational craft are coded as marinas (#1240, Cultural/Entertainment).  Intermodal facilities are coded separately as 1570.
+
+1530 Aircraft Transportation  [TCU_AIR]
+Includes public and private-use airfields.
+ 
+1540 Independent Automobile Parking  [TCU_PARKING]
+Non-residential off-street parking with or without a multi-level structure.  This includes municipal lots.  Parking lots associated with an adjacent land use are coded to that particular use.
+ 
+1550 Communication  [TCU_COMM]
+This category includes telephone, telegraph, radio, and television including towers, dishes, microwave facilities, and other communications infrastructure not elsewhere classified.  
+
+1561 Utility Right-of-Way  [TCU_ROW_UTIL]
+Linear parcels owned by a utility company such as Nicor, Peoples Gas, or Commonwealth Edison/Exelon; for the purposes of above- or below-ground transmission of utilities.
+
+1562 Wastewater Treatment Facility  [TCU_WWTP]
+Municipal wastewater treatment plants.
+
+1563 Landfill  [TCU_LANDFILL]
+Includes closed landfills, unless converted to another active use (i.e. golf course).
+ 
+1564 Other Utility/Waste  [TCU_OTH_UTIL]
+Including: electric generation plants and substations; natural gas production plants and storage tanks; water pipelines;  water towers and accompanying land;  refuse and garbage plants; incinerators.
+
+1565 Stormwater Management  [TCU_STORMWATER]
+Parcel is dominated by detention or retention basin, within or adjacent to a non-residential development (the residential equivalent is coded under 1151, Common Open Space in a Residential Development).
+ 
+1570 Intermodal Facility  [TCU_INTERMODAL]
+Sites involved in the transfer of freight between truck/rail/marine transport. Does not include single-company facilities (such as UPS), which are classed as 1420 (General Industrial) or 1432 (Warehousing/Distribution &gt; 100,000 sq. ft.).
+
+AGRICULTURE:
+2000 Agriculture [AG]
+Land classed by the county assessor as agricultural, where the parcel is dominated by: row crops, field crops &amp; fallow field  farms &amp; pasture, horse, dairy, livestock, and mixed, including dairy and other livestock agricultural processing.  Also includes land identified by the assessor as having a developed use where, according to corresponding aerial photography, the land is still in agricultural use; in those instances, the land is coded as Agriculture, with the planned land use (Residential, Commercial, Industrial, Other) identified in the PLATTED modifier.
+
+OPEN SPACE:
+3100 Open Space, Primarily Recreation  [OS_REC]
+Recreational open space with greater than 50% combined impervious surface and manicured turf; botanical gardens and arboreta are included in this category. Includes code for management agency type (see OS_MGMT field).
+ 
+3200 Golf Course  [OS_GOLF]
+Public golf courses, country clubs and driving ranges; including associated buildings and parking. Includes code for management agency type (see OS_MGMT field).
+ 
+3300 Open Space, Primarily Conservation  [OS_CONS]
+Open space in a natural state (less than 50% combined impervious surface/manicured turf); includes public land (federal and state parks and conservation areas, county forest preserves, as well as local parks that are primarily in a natural state), state-dedicated nature preserves (regardless of ownership status), and privately-run conservation facilities.  Campgrounds within these facilities are included as part of the preserve. Includes code for management agency type (see OS_MGMT field).
+ 
+3400 Non-Public Open Space  [OS_PRIVATE]
+Generally, this category is reserved for those activities which are considered either conservation or else “low-impact” outdoor recreation occurring on land that is mostly in a natural state, but is not protected through public ownership nor dedication as a Nature Preserve. Including but not limited to hunting clubs, scout camps, and private campgrounds.
+
+3500 Trail or Greenway  [OS_TRAIL]
+Right-of-way maintained for the purposes of recreational activities.
+
+VACANT/UNDER CONSTRUCTION:
+4110 Vacant Residential Land  [VACANT_RES]
+Undeveloped land classified as “Residential” by county assessor.  Includes undeveloped parcels in mature subdivisions (when not owned by an adjacent landowner), as well as undeveloped parcels in newer subdivisions where general construction activities have been completed or appear suspended.
+
+4120 Vacant Commercial Land  [VACANT_COM]
+Undeveloped land classified as “Commercial” by county assessor.
+
+4130 Vacant Industrial Land  [VACANT_IND]
+Undeveloped land classified as “Industrial” by county assessor.
+
+4140 Other Vacant  [VACANT_OTHER]
+Undeveloped land classified as “Agriculture” by county assessor (where less than 25% of the parcel is farmed), is tax-exempt, or where classification is unknown.
+
+4210 Under Construction, Residential  [CONST_RES]
+The “construction” designation will apply to all parts of the development that have been subdivided into individual house lots plus common open space and adjacent parcels where construction activity is evident.  Finished structures within these subdivisions will be coded to their “finished” use.
+
+4220 Under Construction, Commercial  [CONST_COM]
+
+4230 Under Construction, Industrial  [CONST_IND]
+
+4240 Under Construction, Other or Unknown  [CONST_OTHER]
+
+OTHER:
+5000  Water
+Parcel is entirely water.
+
+6000 Non-Parcel Areas
+Areas of the region not covered by county parcels.  Due to geoprocessing issues CMAP is no longer breaking these out into ROW, Water, etc.
+
+9999  Not classifiable
+Usually a sliver or isolated parcel with no identifiable use.
+</eaover></overview></eainfo><mdLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdHrLvName>dataset</mdHrLvName><mdContact><rpIndName>David Clark</rpIndName><rpOrgName>Chicago Metropolitan Agency for Planning</rpOrgName><rpPosName>Principal Analyst</rpPosName><role><RoleCd value="008"/></role></mdContact><mdDateSt>20201114</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distFormat><formatName>File Geodatabase Feature Class</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>Chicago Metropolitan Agency for Planning's 2015 Land Use Inventory for Northeastern Illinois, Version 1.0. Published: November 2020</resTitle><resEd>2013 Version 1.0</resEd><citRespParty xmlns=""><rpIndName>David Clark</rpIndName><rpOrgName>Chicago Metropolitan Agency for Planning</rpOrgName><rpPosName>Principal Analyst</rpPosName><role><RoleCd value="008"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This file is a digital geospatial Environmental Systems Research Institute (ESRI) ArcGIS version 10.x File Geodatabase Polygon Feature Class representing land use in the seven northeastern Illinois counties (Cook, DuPage, Kane, Kendall, Lake, McHenry and Will). Land use is identified to nearly 60 categories, and was created using county parcel GIS boundaries and Assessor data, along with color orthorectificed aerial photography captured in the spring of 2015. Land uses were assigned to parcels using a combination of automated and manual techniques, using a variety of reference data sets for land use identification and validation. Parcels were then dissolved on common land uses (to the limits of PLS sections or assessor blocks); polygons were generated for “non-parcel” (water, right-of-way) areas and classified using automated processes, and extensive topological cleaning was necessary to minimize gap/overlap issues.NOTE: Land use polygons are based on county parcel boundaries; special care must be exercised when comparing these data to earlier (2005, 2001, 1990) Inventories, which relied on manual drafting of land use boundaries that would extend to road centerlines.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>The Land Use Inventory for Northeastern Illinois is produced by the Chicago Metropolitan Agency for Planning (CMAP). Identification of land use in the seven-county region of northeast Illinois serves in CMAP's development of long-range population, household and employment forecasts in support of the comprehensive planning efforts. Additionally, agency planners and analysts frequently use Inventory for local technical assistance, watershed planning, and policy analyses. Counties, municipalities, transportation agencies, universities, developers, and conservation groups also make use of these data.</idPurp><idCredit>CMAP Research and Analysis staff: David Clark (P.M.), Erik Pedersen, Noel Peterson.  Interns: Kyle Acevedo, Damilare Balogun, Jeong Hoon Kim, Roxanna Lewicki.</idCredit><placeKeys><keyword>Northeastern Illinois; Cook County, Illinois; DuPage County, Illinois; Kane County, Illinois; Kendall County, Illinois; Lake County, Illinois; McHenry County, Illinois; Will County, Illinois</keyword></placeKeys><tempKeys><keyword>2013</keyword></tempKeys><themeKeys><keyword>Commercial, Water, Vacant, Industrial, Transportation, Residential, Open Space, Communications, Utilities, Cadastral and Land Planning, Land Use, Institutional, Agricultural</keyword></themeKeys><searchKeys><keyword>Northeastern Illinois; Cook County</keyword><keyword>Illinois; DuPage County</keyword><keyword>Illinois; Kane County</keyword><keyword>Illinois; Kendall County</keyword><keyword>Illinois; Lake County</keyword><keyword>Illinois; McHenry County</keyword><keyword>Illinois; Will County</keyword><keyword>Illinois</keyword><keyword>Commercial</keyword><keyword>Water</keyword><keyword>Vacant</keyword><keyword>Industrial</keyword><keyword>Transportation</keyword><keyword>Residential</keyword><keyword>Open Space</keyword><keyword>Communications</keyword><keyword>Utilities</keyword><keyword>Cadastral and Land Planning</keyword><keyword>Land Use</keyword><keyword>Institutional</keyword><keyword>Agricultural</keyword><keyword>2015</keyword></searchKeys><resConst><Consts><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;It is required that the Chicago Metropolitan Agency for Planning be cited in any products generated from the data. The following source citation must be included: "Source: Chicago Metropolitan Agency for Planning's 2015 Land Use Inventory for Northeastern Illinois, Version 1.0. Published: November 2020." Map information is not appropriate for, and is not to be used as, a geodetic, legal, or engineering base. Map information has no legal basis in the definition of boundaries or property lines and is not intended as a substitute for surveyed locations such as can be determined by a registered Public Land Surveyor.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></dataLang><dataChar><CharSetCd value="004"/></dataChar><envirDesc>Version 6.2 (Build 9200) ; Esri ArcGIS 10.7.0.10450</envirDesc><dataExt><geoEle><GeoBndBox><exTypeCode>true</exTypeCode><westBL>-88.707678</westBL><eastBL>-87.511593</eastBL><southBL>41.198788</southBL><northBL>42.496043</northBL></GeoBndBox></geoEle></dataExt><dataExt><geoEle><GeoBndBox><exTypeCode>true</exTypeCode><westBL>-88.707664</westBL><eastBL>-87.51166</eastBL><southBL>41.198878</southBL><northBL>42.496038</northBL></GeoBndBox></geoEle></dataExt><dataExt><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-88.707678</westBL><eastBL Sync="TRUE">-87.511593</eastBL><northBL Sync="TRUE">42.496043</northBL><southBL Sync="TRUE">41.198788</southBL></GeoBndBox></geoEle></dataExt><tpCat><TopicCatCd value="019"/></tpCat><tpCat><TopicCatCd value="018"/></tpCat><tpCat><TopicCatCd value="015"/></tpCat></dataIdInfo><mdMaint><maintFreq><MaintFreqCd value="009"/></maintFreq></mdMaint><spatRepInfo><VectSpatRep><geometObjs Name="MedicalCenter_CMAP"><geoObjTyp><GeoObjTypCd value="004" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><refSysInfo><RefSystem><refSysID><identCode code="3435"/><idCodeSpace>EPSG</idCodeSpace><idVersion>8.9.3(9.3.0.0)</idVersion></refSysID></RefSystem></refSysInfo><spdoinfo><ptvctinf><esriterm Name="MedicalCenter_CMAP"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="1" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo></metadata>
