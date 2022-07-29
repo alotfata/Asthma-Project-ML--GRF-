@@ -1,4 +1,6 @@
-# RegressionModels
+# RegressionModels (Ongoing study)
+
+
 This study aims to predict asthma prevalance in the united states at county level- 
 The study compares four ML regression modesl to predict asthma prevalance
 Mulilinear regression - Polynomial regression- Randforest regression and support vector regression 
