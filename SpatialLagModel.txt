@@ -1,0 +1,17 @@
+#spatial lag model
+
+mod7_lag <- lagsarlm(ASTHMA~RPL_THEME2+RPL_THEME3+RPL_THEME4+RATIO+MEDCENTER+PM25, data = df, rwm)
+
+#mod7_err <- errorsarlm(ASTHMA~RPL_THEME2+RPL_THEME4+RATIO+MEDCENTER+PM25+POPW, data = df, rwm)
+
+summary(mod7_lag)
+#summary(mod6_err)
+
+#direct, total and indirect impacts
+W <- as(rwm, "CsparseMatrix")
+trMC <- trW(W, type="MC")
+im<-impacts(mod1_lag, tr=trMC, R=100)
+sums<-summary(im,  zstats=T)
+#To print the coefficients
+data.frame(sums$res)
+data.frame(sums$pzmat)
