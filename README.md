@@ -1,4 +1,4 @@
-# RegressionModels (Ongoing study)
+# ML Regression Models (Ongoing study)
 
 
 This study aims to predict asthma prevalance in the united states at county level- 
